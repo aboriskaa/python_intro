@@ -18,7 +18,7 @@ def inputCoordinate(x):
                 is_OK = True
                 if a[i] == 0:
                     is_OK = False
-                    print("Координата не должно быть равна 0 ")
+                    print("Координата не должна быть равна 0 ")
             except ValueError:
                 print("Пожалуйста введите число!")
     return a
